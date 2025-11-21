@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\UGL.Core\UGL.Core.Data\UGL.Core.Data.csproj" />
+      <ProjectReference Include="..\..\UGL.Core\UGL.Core.Interface\UGL.Core.Interface.csproj" />
+    </ItemGroup>
+
+</Project>
